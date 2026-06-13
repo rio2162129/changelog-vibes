@@ -1,0 +1,24 @@
+{
+  "name": "changelog-vibes",
+  "version": "0.1.0",
+  "description": "A tiny zero-dependency CLI that turns git commits into a clean Markdown changelog.",
+  "type": "module",
+  "bin": {
+    "changelog-vibes": "./bin/changelog-vibes.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node ./bin/changelog-vibes.js"
+  },
+  "keywords": [
+    "changelog",
+    "git",
+    "cli",
+    "conventional-commits"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
